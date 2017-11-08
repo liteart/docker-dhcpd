@@ -6,14 +6,6 @@
 ## Configuration
 See [example directory](https://github.com/jcbiellikltd/docker-dhcpd/tree/master/example) for sample config file.
 
-## Quickstart
-```
-dhcpd:
-  image: joebiellik/bind
-
-  net: host
-
-  volumes:
-    # Config pass through
-    - ./dhcpd.conf:/etc/dhcp/dhcpd.conf
-```
+## Liteart Version ##
+Added Example Configuration to Dockerfile
+DHCP Server starts by default with a standard configuration. 
